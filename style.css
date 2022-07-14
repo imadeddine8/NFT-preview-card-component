@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+/* Card */
+.card{
+    position: relative;
+    width: 350px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 300px;
+}
+/* Equilibrium Image */
+.card .image{
+    width: 310px;
+    height: 300px;
+    margin: 20px 0 0 20px;
+    border-radius: 10px;
+}
+/* Title */
+.card h2{
+    margin: 20px 0 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* Title Active */
+h2:active{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+/* Paragraph */
+.card p{
+    margin: 0 0 20px 20px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+}
+/* Information */
+.card .eth .ethereum-icon{
+    position: absolute;
+    left: 20px;
+}
+.card .eth .number{
+    color: hsl(178, 100%, 50%);
+    position: absolute;
+    left: 40px;
+    
+}
+.card .eth .clock-icon{
+    position: absolute;
+    left: 225px;
+    bottom: 112px;
+}
+.card .eth .days{
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    left: 250px;
+}
+/* Line */
+.line{
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    width: 310px;
+    margin: 60px 0 0 20px; 
+}
+
+/* Avatar */
+.card .avatar img{
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+.card .avatar p{
+    position: absolute;
+    left: 60px;
+    bottom: 15px;
+    color: hsl(215, 51%, 70%);
+}
+.card .avatar a{
+    color: white;
+    text-decoration: none;
+}
+/* Span Avatar Active */
+.card .avatar a:active{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.attribution a{
+    color:  hsl(178, 100%, 50%);
+}
